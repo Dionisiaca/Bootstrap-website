@@ -4,13 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <title>Pagina web hecha con Bootstrap</title>
+    <link rel="stylesheet" href="css/custom-styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+
+
+    <title>Briggle</title>
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom" >
         <div class="container">
-          <a href="#" class="navbar-brand">Navbar</a>
+          <a href="#" class="navbar-brand" >Briggle</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -24,7 +29,7 @@
           <div class="collapse navbar-collapse" id="menuNavegacion">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <a href="" class="nav-link">Inicio</a>
+                <a href="" class="nav-link">Home</a>
               </li>
               <!--Desplegable-->
               <li class="nav-item dropdown">
@@ -34,17 +39,17 @@
                   id="navbarDropdown"
                   data-toggle="dropdown"
                 >
-                  Productos
+                  Products
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a href="#" class="dropdown-item">Computadoras</a>
-                  <a href="#" class="dropdown-item">Smartphones</a>
-                  <a href="#" class="dropdown-item">Drones</a>
-                  <a href="#" class="dropdown-item">Accesorios</a>
+                  <a href="#" class="dropdown-item">Notebooks</a>
+                  <a href="#" class="dropdown-item">Pencils and pens</a>
+                  <a href="#" class="dropdown-item">Washi tape</a>
+                  <a href="#" class="dropdown-item">Accesories</a>
                 </div>
               </li>
               <li class="nav-item">
-                <a href="" class="nav-link">Contacto</a>
+                <a href="" class="nav-link">Contact</a>
               </li>
             </ul>
             <form action="" class="form-inline my-2 my-lg-0">
@@ -52,10 +57,10 @@
                 type="text"
                 class="form-control mr-sm-2"
                 type="search"
-                placeholder="Búsqueda"
+                placeholder="Search"
               />
-              <button class="btn btn-primary my-2 my-sm-0" type="submit">
-                Buscar
+              <button class="btn btn-light my-2 my-sm-0" type="submit">
+                Search
               </button>
             </form>
           </div>
@@ -77,13 +82,16 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="img/s1.jpg" class="d-block w-100" alt="" />
+                <img src="img/s1.png" class="d-block w-100" alt="" />
               </div>
               <div class="carousel-item">
-                <img src="img/s2.jpg" class="d-block w-100" alt="" />
+                <img src="img/s2.png" class="d-block w-100" alt="" />
               </div>
               <div class="carousel-item">
-                <img src="img/s3.jpg" class="d-block w-100" alt="" />
+                <img src="img/s3.png" class="d-block w-100" alt="" />
+              </div>
+              <div class="carousel-item">
+                <img src="img/s4.png" class="d-block w-100" alt="" />
               </div>
             </div>
             <a
@@ -92,7 +100,7 @@
               data-slide="prev"
             >
               <span class="carousel-control-prev-icon" aria-hidden="true"
-                ><span class="sr-only">Anterior</span></span
+                ><span class="sr-only">Prev</span></span
               >
             </a>
             <a
@@ -101,7 +109,7 @@
               data-slide="next"
             >
               <span class="carousel-control-next-icon" aria-hidden="true"
-                ><span class="sr-only">Siguiente</span></span
+                ><span class="sr-only">Next</span></span
               >
             </a>
           </div>
@@ -110,21 +118,21 @@
       <div class="row">
         <div class="col-12">
           <div class="py-4 border-bottom">
-            <h1 class="text-center">Galería</h1>
+            <h1 class="text-center">Shop</h1>
           </div>
         </div>
       </div>
-      <div class="row py-4">
+      <div class="row py-4 custom">
         <div class="col-12 col-lg-3 col-sm-6 mb-4">
           <div class="card">
             <img src="img/1.jpg" class="card-img-top" />
             <div class="card-body">
-              <h3 class="card-title">iPhone</h3>
+              <h3 class="card-title">Product</h3>
               <p class="card-text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               </p>
-              <a href="#" class="btn btn-sm btn-primary">Comprar</a>
-              <a href="#" class="btn btn-sm btn-secondary">Detalles</a>
+              <a href="#" class="btn btn-sm btn-custom">Buy</a>
+              <a href="#" class="btn btn-sm btn-light">Details</a>
             </div>
           </div>
         </div>
@@ -132,12 +140,12 @@
           <div class="card">
             <img src="img/2.jpg" class="card-img-top" />
             <div class="card-body">
-              <h3 class="card-title">iPhone</h3>
+              <h3 class="card-title">Product</h3>
               <p class="card-text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               </p>
-              <a href="#" class="btn btn-sm btn-primary">Comprar</a>
-              <a href="#" class="btn btn-sm btn-secondary">Detalles</a>
+              <a href="#" class="btn btn-sm btn-custom">Buy</a>
+              <a href="#" class="btn btn-sm btn-light">Details</a>
             </div>
           </div>
         </div>
@@ -145,12 +153,12 @@
           <div class="card">
             <img src="img/3.jpg" class="card-img-top" />
             <div class="card-body">
-              <h3 class="card-title">iPhone</h3>
+              <h3 class="card-title">Product</h3>
               <p class="card-text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               </p>
-              <a href="#" class="btn btn-sm btn-primary">Comprar</a>
-              <a href="#" class="btn btn-sm btn-secondary">Detalles</a>
+              <a href="#" class="btn btn-sm btn-custom">Buy</a>
+              <a href="#" class="btn btn-sm btn-light">Details</a>
             </div>
           </div>
         </div>
@@ -158,12 +166,12 @@
           <div class="card">
             <img src="img/4.jpg" class="card-img-top" />
             <div class="card-body">
-              <h3 class="card-title">iPhone</h3>
+              <h3 class="card-title">Product</h3>
               <p class="card-text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               </p>
-              <a href="#" class="btn btn-sm btn-primary">Comprar</a>
-              <a href="#" class="btn btn-sm btn-secondary">Detalles</a>
+              <a href="#" class="btn btn-sm btn-custom">Buy</a>
+              <a href="#" class="btn btn-sm btn-light">Details</a>
             </div>
           </div>
         </div>
@@ -171,25 +179,12 @@
           <div class="card">
             <img src="img/5.jpg" class="card-img-top" />
             <div class="card-body">
-              <h3 class="card-title">iPhone</h3>
+              <h3 class="card-title">Product</h3>
               <p class="card-text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               </p>
-              <a href="#" class="btn btn-sm btn-primary">Comprar</a>
-              <a href="#" class="btn btn-sm btn-secondary">Detalles</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-3 col-sm-6 mb-4">
-          <div class="card">
-            <img src="img/6.jpg" class="card-img-top" />
-            <div class="card-body">
-              <h3 class="card-title">iPhone</h3>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              </p>
-              <a href="#" class="btn btn-sm btn-primary">Comprar</a>
-              <a href="#" class="btn btn-sm btn-secondary">Detalles</a>
+              <a href="#" class="btn btn-sm btn-custom">Buy</a>
+              <a href="#" class="btn btn-sm btn-light">Details</a>
             </div>
           </div>
         </div>
@@ -197,39 +192,52 @@
           <div class="card">
             <img src="img/7.jpg" class="card-img-top" />
             <div class="card-body">
-              <h3 class="card-title">iPhone</h3>
+              <h3 class="card-title">Product</h3>
               <p class="card-text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               </p>
-              <a href="#" class="btn btn-sm btn-primary">Comprar</a>
-              <a href="#" class="btn btn-sm btn-secondary">Detalles</a>
+              <a href="#" class="btn btn-sm btn-custom">Buy</a>
+              <a href="#" class="btn btn-sm btn-light">Details</a>
             </div>
           </div>
         </div>
         <div class="col-12 col-lg-3 col-sm-6 mb-4">
           <div class="card">
-            <img src="img/8.jpg" class="card-img-top" />
+            <img src="img/8.jfif" class="card-img-top" />
             <div class="card-body">
-              <h3 class="card-title">iPhone</h3>
+              <h3 class="card-title">Product</h3>
               <p class="card-text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               </p>
-              <a href="#" class="btn btn-sm btn-primary">Comprar</a>
-              <a href="#" class="btn btn-sm btn-secondary">Detalles</a>
+              <a href="#" class="btn btn-sm btn-custom">Buy</a>
+              <a href="#" class="btn btn-sm btn-light">Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 col-sm-6 mb-4">
+          <div class="card">
+            <img src="img/6.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h3 class="card-title">Product</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
+              <a href="#" class="btn btn-sm btn-custom">Buy</a>
+              <a href="#" class="btn btn-sm btn-light">Details</a>
             </div>
           </div>
         </div>
       </div>
     </main>
-    <footer class="container">
+    <footer class="container footer">
       <div class="row border-top py-5">
         <div class="col">
-          <h3 class="lead">Store.com</h3>
-          <a href="#" class="btn btn-link">Acerca de</a>
-          <a href="#" class="btn btn-link">Contacto</a>
+          <h3 class="lead">Briggle</h3>
+          <a href="#" class="btn btn-link">About</a>
+          <a href="#" class="btn btn-link">Contact</a>
         </div>
         <div class="col text-right">
-          <a href="#" class="btn btn-link">Subir en página</a>
+          <a href="#" class="btn btn-link">Go up</a>
         </div>
       </div>
     </footer>

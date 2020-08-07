@@ -1,0 +1,52 @@
+.navbar-custom .navbar-brand{
+    font-family: 'Alegreya', serif;
+    font-size: 40px;
+    font-weight: bold;
+    padding-right: 2rem;
+    color: black;
+
+}
+
+.navbar-custom .nav-item a{
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar-custom form {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.custom {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.custom h3{
+    font-family: 'Alegreya', serif;
+    font-weight: bold;
+}
+
+.custom .btn-custom {
+    background-color: #ffe602;
+    font-weight: bold;
+
+}
+
+.custom .btn-custom:hover {
+    background-color: #FF03A7;
+    color: white;
+}
+
+.footer h3{
+    font-family: 'Alegreya', serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.footer .btn-link{
+    color: #FF03A7;
+}
+
+.footer .btn-link:hover{
+    color: cyan;
+}
